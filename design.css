@@ -1,0 +1,100 @@
+body {
+	background-image: url(background.jpg);
+	font-family: georgia;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+	 }
+.header
+{
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+  	color: white;
+  	font-size: 81px;
+  	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+}
+h1
+{
+	text-align: center;
+	background-image: url(text.jpg);
+	padding-top: 20px;
+	height: 80px;
+	color: white;
+	font-weight: lighter;
+}
+div.block
+{	
+	margin: 30px;
+	color: white;
+	border: 1px solid black;
+	padding: 10px;
+	width: 95%;
+
+}
+
+table{
+
+	width: 100%;
+	text-align: center;
+	font-size: 30px;  
+	font-weight: normal;
+	font-family:Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+
+	}
+
+td{ 
+	font-weight: normal;
+	font-family:Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+tr:hover {
+	background-color: #ffffff;
+	opacity: .8}
+
+.button {
+	background-color: #9F2053; /* magenta */
+	border: none;
+	color: white;
+	width: 300px;
+	height: 50px;
+	border: 2px solid white;
+	padding: 15px 32px;
+	border-spacing: 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	border-radius: 2px
+}
+.submitbutton {
+	background-color: transparent;
+	font-family: 'Pacifico', cursive;
+	color: white;
+	font-size: 50px;
+	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+	width: 400px;
+	height: 100px;
+	text-align: center;
+	padding: 15px 32px;
+	border-color: transparent;
+	
+}
+.box{
+	width: 60%;
+	padding: 80px 80px 80px 80px;
+	background-color: #EFB8F1;
+	border-radius: 20px;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 25px;
+	height: 300px;
+	border-color: black;
+	font-color:yellow;
+	white-space: pre-line;
+	display:none;
+	box-shadow: inset 0 0 0 1px #707070;
+} 
+#know,#knowalgo,#Finalanswer,#suggest,#algo
+{
+	display:none;
+	text-align: center;
+
+}

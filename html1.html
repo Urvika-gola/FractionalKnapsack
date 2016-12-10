@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<html lang="en-US">
+<head>
+<link rel="stylesheet" href="design.css">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<script type="text/javascript" src="functionality.js"></script>
+</head> 
+<title>Task Scheduler</title>
+<body>
+<div class="header">
+Customized Task Scheduler
+</div><br><br>
+
+<div class="block">
+
+ <h1>Specify the Task Name, Time you can Devote to it ,Priority of the task and The total time you have</h1>
+	
+<table>
+	<tr>
+	<th>Name</th>
+	<th>Time(in minutes) </th>
+	<th>Priority</th>
+	</tr>
+    
+    <tr>
+    <td><input type="text" class="button" id="1.1" value="Analysis Of Algorithm & Design"></input></td>
+    <td><input type="text" class="button" id="1.2"onfocus="this.value=''" value="20"></input></td>
+	<td><input type="text" class="button" id="1.3" onfocus="this.value=''" value="5"></input></td>
+    </tr>
+
+    <tr>
+    <td><input type="text" class="button" id="2.1" value="JAVA"></input></td>
+    <td><input type="text" class="button" id="2.2" onfocus="this.value=''" value="15"></input></td>
+	<td><input type="text" class="button" id="2.3" onfocus="this.value=''" value="2"></input></td>
+    </tr>
+    
+    <tr>
+    <td><input type="text" class="button" id="3.1" value="Operating System"></input></td>
+    <td><input type="text" class="button" id="3.2" onfocus="this.value=''" value="5"></input></td>
+	<td><input type="text" class="button" id="3.3" onfocus="this.value=''" value="1"></input></td>
+    </tr>
+    
+    <tr>
+    <td><input type="text" class="button" id="4.1" value="Computer System and Architecture"></input></td>
+    <td><input type="text" class="button" id="4.2" onfocus="this.value=''" value="10"></input></td>
+	<td><input type="text" class="button" id="4.3" onfocus="this.value=''" value="3"></input></td>
+    </tr> 
+
+    <tr>
+    <td><input type="text" class="button" id="5.1" value="Data Structures and Algorithms"></input></td>
+    <td><input type="text" class="button" id="5.2"onfocus="this.value=''" value="15"></input></td>
+	<td><input type="text" class="button" id="5.3" onfocus="this.value=''" value="4"></input></td>
+    </tr>
+    
+    <tr>
+    <td><input type="text" class="button"  value="Total Time->"></input></td>
+    <td><input type="text" class="button"  id="total" value="60" onfocus="this.value=''"></input></td>
+    <td></td>
+	</tr>
+</table>
+</div>
+<div align="center">
+<button type="button" class="submitbutton" onclick="fun()">Know your Schedule!</button><br><br><br><br><br>
+<h1 id="Finalanswer">  </h1>
+
+<p class="submitbutton" id="know" >Your Schedule is Ready!</p><br><br>
+<textarea id="suggest" class="box">Study the following subjects according to the given Time period:</textarea>
+
+<p class="submitbutton" id="knowalgo" >Algorithm Overview!</p><br><br>
+<textarea id="algo" class="box">Descending Order of Priority/Time ie Value/Weight is :</textarea></div>
+
+<address >
+<font color="white" size="3px">
+Created by:Urvika Gola <br>
+Contact: urvika.gola@gmail.com<br> 
+</font>
+</address>
+</body>
+</html>
+
